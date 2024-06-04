@@ -12,22 +12,21 @@ This PowerShell script is used to manage Azure AD user licenses. It includes fun
 
 ```powershell
 Import-Module AzureAD
-
+```
 2. Connect to Azure AD:
 
-```Usage
 Define the AD group Object ID and License SKUs at the top of the script:
 
+```powershell
 $groupObjectId = "<groupObjectId>"
 $F3Sku = "<F3Sku>"
 $EMSSku = "<EMSSku>"
 
 Replace <groupObjectId>, <F3Sku>, and <EMSSku> with your actual values.
-
+```
 Then, call the functions as needed.
 
 Note
 This script assumes that you have the necessary permissions to manage Azure AD user licenses.
 
-```
 
